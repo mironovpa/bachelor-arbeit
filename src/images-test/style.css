@@ -1,0 +1,16 @@
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.images__single-image {
+    display: flex;
+}
+
+.images img {
+    max-width: 100%;
+    height: 25vh;
+    width: 100%;
+    object-fit: cover;
+}
